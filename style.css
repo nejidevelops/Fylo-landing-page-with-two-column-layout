@@ -7,14 +7,51 @@
 }
 
 :root {
-  
+  /* primary Colors */
+  --very-dark-blue: hsl(243, 87%, 12%);
+  --desaturated-blue: hsl(238, 22%, 44%);
 
+  /* Accent Colors */
+  --bright-blue: hsl(224, 93%, 58%);
+  --moderate-cyan: hsl(170, 45%, 43%);
+
+  /* Neutral Colors */
+  --light-grayish-blue: hsl(240, 75%, 98%);
+  --light-gray: hsl(0, 0%, 75%);
+
+  /* Fonts */
   --body-font-family: 'Open Sans', sans-serif;
   --heading-font-family: 'Raleway', sans-serif;
 }
 
+body {
+  position: relative;
+  margin: 2rem 3rem;
+}
+
+.navmenu nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navmenu nav ul {
+  list-style: none;
+  margin: 0.5rem 0;
+}
+
+.navmenu nav ul li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+.navmenu nav ul li a {
+  text-decoration: none;
+  color: var(--desaturated-blue);
+}
+
 .attribution {
-  font-size: 11px; text-align: center; 
+  font-size: 11px; 
+  text-align: center; 
 }
 
 .attribution a {
