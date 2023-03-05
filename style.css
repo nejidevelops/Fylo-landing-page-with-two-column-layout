@@ -49,6 +49,20 @@ body {
   color: var(--desaturated-blue);
 }
 
+@media (max-width:504px) {
+  
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  /* height: 80dvh; */
+}
+
+.hero .hero-image img {
+  width: 80%;
+}
+
 .attribution {
   font-size: 11px; 
   text-align: center; 
